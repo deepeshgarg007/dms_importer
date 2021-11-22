@@ -81,9 +81,9 @@ app_license = "MIT"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Data Import": "dms_importer.overrides.data_import.CustomDataImport"
+}
 
 # Document Events
 # ---------------
